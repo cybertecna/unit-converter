@@ -1,0 +1,83 @@
+* {
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Ubuntu Mono', monospace;
+font-family: 'Urbanist', sans-serif;
+}
+body {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background: #6943FF;
+    color: white;
+    margin-bottom: 0;
+    padding: 1vh
+}
+
+main {
+    color: #5A537B;
+    background: #F4F4F4;
+    margin-top: 0;
+    padding: 1vh
+}
+
+.unit-conversion {
+    background: #FFFFFF;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1em 0;
+    margin-bottom: 1em;
+    border-radius: 3px
+}
+
+#number {
+    outline: none;
+    border: 2px solid #B295FF;
+    border-radius: 3px;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 20%;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+    text-align: center;
+    color: white; 
+    background: #6943FF;
+
+}
+
+button {
+    background: white;
+    color: #5A537B;
+    border: none;
+    border-radius: 3px;
+    width: 20%;
+    padding: 0.5em 0;
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-size: 1em;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background: #5A537B;
+    color: white;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
